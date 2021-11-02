@@ -74,10 +74,6 @@ img {
   margin-bottom: 1.5rem;
 }
 
-.section__height {
-  height: 100vh;
-}
-
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;
@@ -172,6 +168,7 @@ img {
 
 .nav__icon {
   font-size: 1.5rem;
+  display: none;
 }
 
 /*Active link*/
@@ -207,6 +204,10 @@ main .landing__page .content .text__for__landing {
 main .landing__page .content .text__for__landing h1 {
   font-size: 3em;
   font-weight: 700;
+}
+
+main .landing__page .content .text__for__landing p {
+  margin: 14px 5px;
 }
 
 main .landing__page .content .text__for__landing a {
@@ -275,6 +276,9 @@ main .landing__page .content .text__for__landing a {
   .container {
     margin-left: auto;
     margin-right: auto;
+  }
+  .nav__icon {
+    display: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,6 @@
 /*=============== HEADER ===============*/
-.header{
+
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -9,24 +10,24 @@
     transition: .4s;
 }
 
+
 /*=============== NAV ===============*/
-.nav{
+
+.nav {
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    &__img{
+    &__img {
         width: 32px;
         border-radius: 50%;
     }
-    &__logo{
+    &__logo {
         color: var(--title-color);
         font-weight: 600;
     }
-
-    @media screen and (max-width: 767px){
-        &__menu{
+    @media screen and (max-width: 767px) {
+        &__menu {
             position: fixed;
             bottom: 0;
             left: 0;
@@ -41,38 +42,37 @@
             transition: .4s;
         }
     }
-
     &__list,
-    &__link{
+    &__link {
         display: flex;
     }
-
-    &__link{
+    &__link {
         flex-direction: column;
         align-items: center;
         row-gap: 4px;
         color: var(--title-color);
         font-weight: 600;
     }
-
-    &__list{
+    &__list {
         justify-content: space-around;
     }
-    &__name{
+    &__name {
         font-size: var(--tiny-font-size);
         // display: none; // Minimalist design, hidden labels
     }
-    &__icon{
+    &__icon {
         font-size: 1.5rem;
+        display: none;
     }
 }
 
+
 /*Active link*/
-.active-link{
+
+.active-link {
     position: relative;
     color: var(--first-color);
     transition: .3s;
-
     // Minimalist design, active link
     // &::before{
     //     content: '';
@@ -85,7 +85,9 @@
     // }
 }
 
+
 /* Change background header */
-.scroll-header{
+
+.scroll-header {
     box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
 }
