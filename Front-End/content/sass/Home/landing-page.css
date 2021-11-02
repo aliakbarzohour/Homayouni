@@ -19,6 +19,10 @@ main .landing__page .content .text__for__landing h1 {
   font-weight: 700;
 }
 
+main .landing__page .content .text__for__landing p {
+  margin: 14px 5px;
+}
+
 main .landing__page .content .text__for__landing a {
   text-decoration: none;
   color: whitesmoke;
