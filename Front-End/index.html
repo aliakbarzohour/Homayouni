@@ -75,21 +75,34 @@
             <img src="assets/img/perfil.png" alt="" class="nav__img">
         </nav>
     </header>
-
+    <!-- end codign header web -->
+    <!-- start a codign main web and we added section's and linked navigation to in
+    make a landing page and more page for homaouni pool  -->
     <main>
         <!-- HOME  -->
         <section class="container section section__height landing__page" id="home">
+            <!-- content for this section  -->
             <div class="content">
-                <article class="text__for__landing">
-                    <h4>hello i'm.</h4>
-                    <h1>Homayouni Senior</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum officia suscipit aperiam non eius error inventore placeat a eaque, laborum accusantium explicabo beatae cum consequatur quam. Sequi harum rerum dolorem?</p>
-                    <br>
-                    <a href="#about">See more</a>
-                </article>
-                <article class="image__char">
-                    <img src="content/media/char/Businessman-Transparent.png" alt="senior_homayouni">
-                </article>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
             </div>
         </section>
 
@@ -113,15 +126,17 @@
             <h2 class="section__title">Contactme</h2>
         </section>
     </main>
-
+    <!-- end codign main web  -->
     <footer></footer>
 
 
 
+    <script src="content/js/main.js"></script>
     <!-- Alpine.js  -->
     <script src="content/js/Alpine/Alpine.js" defer></script>
     <!-- swiper.js  -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="content/js/swiper/script.js"></script>
 </body>
 
 </html>

@@ -1,27 +1,9 @@
 main {
     .landing__page {
         .content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .text__for__landing {
-                width: 70%;
-                h4 {}
-                h1 {
-                    font-size: 3em;
-                    font-weight: 700;
-                }
-                p {
-                    margin: 14px 5px;
-                }
-                a {
-                    text-decoration: none;
-                    color: whitesmoke;
-                    font-weight: bold;
-                    background-color: rgb(182, 0, 0);
-                    border-radius: 5px;
-                    padding: 10px 20px;
-                }
+            .swiper {
+                width: 600px;
+                height: 300px;
             }
         }
     }

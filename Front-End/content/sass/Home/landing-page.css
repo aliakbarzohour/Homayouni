@@ -1,34 +1,5 @@
-main .landing__page .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-main .landing__page .content .text__for__landing {
-  width: 70%;
-}
-
-main .landing__page .content .text__for__landing h1 {
-  font-size: 3em;
-  font-weight: 700;
-}
-
-main .landing__page .content .text__for__landing p {
-  margin: 14px 5px;
-}
-
-main .landing__page .content .text__for__landing a {
-  text-decoration: none;
-  color: whitesmoke;
-  font-weight: bold;
-  background-color: #b60000;
-  border-radius: 5px;
-  padding: 10px 20px;
+main .landing__page .content .swiper {
+  width: 600px;
+  height: 300px;
 }
 /*# sourceMappingURL=landing-page.css.map */
