@@ -1,3 +1,75 @@
+main .landing__page {
+  position: relative;
+}
+
+main .landing__page .content .slider-content {
+  width: 100%;
+  height: 100%;
+  color: whitesmoke;
+  position: absolute;
+  inset: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+main .landing__page .content .slider-content .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+  width: 96%;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+main .landing__page .content .slider-content .content h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+main .landing__page .content .slider-content .content p {
+  text-align: center;
+  width: 70%;
+  margin: 15px;
+}
+
+main .landing__page .content .slider-content .content a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: brown;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-size: 1em;
+}
+
 main .landing__page .content .swiper {
   width: 100%;
   height: 100%;
