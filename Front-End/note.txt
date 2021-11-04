@@ -2,6 +2,6 @@
 
 * _ Javascript Library = Alpine.js
 
-* _ Css Library = Bootstrap5
+* _ Slider = Swiperjs
 
 
