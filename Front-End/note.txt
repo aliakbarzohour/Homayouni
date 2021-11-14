@@ -1,7 +1,14 @@
 | Start The Coding This Project |
 
+| aliakbar✍ :
+
 * _ Javascript Library = Alpine.js
 
 * _ Slider = Swiperjs
 
  ~ change a linux disro xubuntu == > Arch linux
+
+
+| mahdi 🤙 :
+
+
