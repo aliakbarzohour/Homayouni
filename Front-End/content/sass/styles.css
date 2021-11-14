@@ -11,7 +11,7 @@
   --title-color: hsl(var(--hue), 12%, 15%);
   --text-color: hsl(var(--hue), 8%, 35%);
   --body-color: hsl(var(--hue), 100%, 99%);
-  --container-color: rgba(255, 255, 255, 0.959);
+  --container-color: whitesmoke;
   /*========== Font and typography ==========*/
   --body-font: 'Open Sans', sans-serif;
   --h1-font-size: 1.5rem;
@@ -185,6 +185,17 @@ img {
           box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
 }
 
+main .landing__page {
+  position: relative;
+}
+
+main .landing__page .content {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
 main .landing__page .content .slider-content {
   width: 100%;
   height: 100%;
@@ -204,7 +215,7 @@ main .landing__page .content .slider-content {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 10;
+  z-index: 1;
 }
 
 main .landing__page .content .slider-content .content {
@@ -230,11 +241,13 @@ main .landing__page .content .slider-content .content {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
 }
 
 main .landing__page .content .slider-content .content h1 {
   font-size: 3em;
   font-weight: bold;
+  text-align: center;
 }
 
 main .landing__page .content .slider-content .content p {
@@ -252,14 +265,14 @@ main .landing__page .content .slider-content .content a {
   font-size: 1em;
 }
 
-main .landing__page .content .swiper {
+main .landing__page .content .slider-content .content .swiper {
   width: 100%;
   height: 100%;
   position: absolute;
   inset: 0;
 }
 
-main .landing__page .content .swiper-slide {
+main .landing__page .content .slider-content .content .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -275,7 +288,7 @@ main .landing__page .content .swiper-slide {
   align-items: center;
 }
 
-main .landing__page .content .swiper-slide img {
+main .landing__page .content .slider-content .content .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
