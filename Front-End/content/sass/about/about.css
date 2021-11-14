@@ -1,0 +1,37 @@
+.aboutme .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.aboutme .content .text {
+  padding: 20px;
+  width: 59%;
+}
+
+.aboutme .content .text h3 {
+  font-size: 2em;
+}
+
+.aboutme .content .text p {
+  font-size: 1em;
+}
+
+.aboutme .content .image {
+  width: 40%;
+}
+
+.aboutme .content .image img {
+  width: 100%;
+}
+/*# sourceMappingURL=about.css.map */
