@@ -31,8 +31,7 @@ main .landing__page .content .text h5 {
 
 main .landing__page .content .text h2 {
   font-size: 3em;
-  letter-spacing: 3px;
-  font-family: 'DM Serif Display', serif !important;
+  font-family: var();
 }
 
 main .landing__page .content .text h4 {

@@ -14,7 +14,7 @@
   --body-color: rgb(0, 9, 22);
   --container-color: rgba(0, 9, 22, 0.849);
   /*========== Font and typography ==========*/
-  --body-font: 'Open Sans', sans-serif;
+  --body-font: vazir;
   --h1-font-size: 1.5rem;
   --normal-font-size: .938rem;
   --tiny-font-size: .625rem;
@@ -36,6 +36,7 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: var(--body-font);
 }
 
 html {
@@ -218,8 +219,7 @@ main .landing__page .content .text h5 {
 
 main .landing__page .content .text h2 {
   font-size: 3em;
-  letter-spacing: 3px;
-  font-family: 'DM Serif Display', serif !important;
+  font-family: var();
 }
 
 main .landing__page .content .text h4 {
