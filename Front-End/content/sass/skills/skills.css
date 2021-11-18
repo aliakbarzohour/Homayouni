@@ -1,0 +1,32 @@
+main .skills-sec .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .skills-sec .skills .skill {
+  width: 300px;
+  margin: 20px;
+  border-radius: 10%;
+  position: relative;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+main .skills-sec .skills .skill img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main .skills-sec .skills .skill:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=skills.css.map */

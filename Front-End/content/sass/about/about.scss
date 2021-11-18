@@ -1,19 +1,39 @@
-.aboutme{
-    .content{
+.aboutme {
+    direction: rtl;
+
+    .content {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row-reverse;
+        flex-direction: row;
 
-        .text{
+        .text {
             padding: 20px;
             width: 59%;
-            h3{font-size: 2em;}
-            p{font-size: 1em;}
+
+            h3 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+                margin: 0 0 30px 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: whitesmoke;
+                background-color: orangered;
+                padding: 7px 15px;
+                border-radius: 5px;
+                margin: 20px 0;
+            }
         }
-        .image{
+
+        .image {
             width: 40%;
-            img{
+
+            img {
                 width: 100%;
             }
         }

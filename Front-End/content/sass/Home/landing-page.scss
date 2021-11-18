@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 main {
     .landing__page {
         position: relative;
@@ -23,8 +24,8 @@ main {
 
                 h2 {
                     font-size: 3em;
-                    letter-spacing: 3px;
-                    font-family: 'DM Serif Display', serif !important;
+                    font-family: var();
+
                 }
 
                 h4 {
