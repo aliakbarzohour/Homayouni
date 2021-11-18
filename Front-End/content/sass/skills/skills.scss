@@ -1,0 +1,39 @@
+main {
+    .skills-sec {
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .skill {
+                width: 300px;
+                margin: 20px;
+                border-radius: 10%;
+                position: relative;
+                transition: .6s;
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+
+                    &:hover {
+                        cursor: pointer;
+                        transition: .6s;
+
+                        ::before {
+                            content: '';
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            inset: 0;
+                            background-color: rgba(0, 0, 0, 0.685);
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+}

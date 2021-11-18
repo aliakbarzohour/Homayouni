@@ -243,6 +243,10 @@ main .landing__page .content .image img {
   width: 100%;
 }
 
+.aboutme {
+  direction: rtl;
+}
+
 .aboutme .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -254,9 +258,9 @@ main .landing__page .content .image img {
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .aboutme .content .text {
@@ -270,6 +274,16 @@ main .landing__page .content .image img {
 
 .aboutme .content .text p {
   font-size: 1em;
+  margin: 0 0 30px 0;
+}
+
+.aboutme .content .text a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: orangered;
+  padding: 7px 15px;
+  border-radius: 5px;
+  margin: 20px 0;
 }
 
 .aboutme .content .image {
@@ -278,6 +292,49 @@ main .landing__page .content .image img {
 
 .aboutme .content .image img {
   width: 100%;
+}
+
+main .skills-sec .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .skills-sec .skills .skill {
+  width: 300px;
+  margin: 20px;
+  border-radius: 10%;
+  position: relative;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+main .skills-sec .skills .skill img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main .skills-sec .skills .skill img:hover {
+  cursor: pointer;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+main .skills-sec .skills .skill img:hover ::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.685);
 }
 
 /*=============== MEDIA QUERIES ===============*/
