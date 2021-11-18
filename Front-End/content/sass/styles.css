@@ -12,7 +12,7 @@
   --title-color: white;
   --text-color: whitesmoke;
   --body-color: rgb(0, 9, 22);
-  --container-color: rgb(0, 3, 27);
+  --container-color: rgba(0, 9, 22, 0.849);
   /*========== Font and typography ==========*/
   --body-font: 'Open Sans', sans-serif;
   --h1-font-size: 1.5rem;
