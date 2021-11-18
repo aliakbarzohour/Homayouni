@@ -16,23 +16,11 @@ main {
                 img {
                     width: 100%;
                     border-radius: 10px;
-
-                    &:hover {
-                        cursor: pointer;
-                        transition: .6s;
-
-                        ::before {
-                            content: '';
-                            width: 100%;
-                            height: 100%;
-                            position: absolute;
-                            inset: 0;
-                            background-color: rgba(0, 0, 0, 0.685);
-                        }
-
-                    }
                 }
 
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
     }

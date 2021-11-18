@@ -322,19 +322,8 @@ main .skills-sec .skills .skill img {
   border-radius: 10px;
 }
 
-main .skills-sec .skills .skill img:hover {
+main .skills-sec .skills .skill:hover {
   cursor: pointer;
-  -webkit-transition: .6s;
-  transition: .6s;
-}
-
-main .skills-sec .skills .skill img:hover ::before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.685);
 }
 
 /*=============== MEDIA QUERIES ===============*/
