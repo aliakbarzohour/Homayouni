@@ -8,6 +8,7 @@
   --hue: 174;
   --sat: 63%;
   --first-color: #e79e00;
+  --seccond-color: #be4c00;
   --first-color-alt: hsl(var(--hue), var(--sat), 36%);
   --title-color: white;
   --text-color: whitesmoke;
@@ -332,6 +333,116 @@ main .skills-sec .skills .skill img {
 
 main .skills-sec .skills .skill:hover {
   cursor: pointer;
+}
+
+main #contactme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #contactme .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #contactme .email .emailabout {
+  width: 70%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+main #contactme .email form {
+  width: 70%;
+  direction: rtl;
+}
+
+main #contactme .email form input {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  direction: rtl;
+  margin: 10px 0;
+  text-align: right;
+}
+
+main #contactme .email form button {
+  margin: 10px 0;
+  background-color: var(--first-color);
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+main #contactme .email form button:hover {
+  background-color: var(--seccond-color);
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+main #contactme .social-madia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #contactme .social-madia a {
+  text-decoration: none;
+  margin: 10px;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+main #contactme .social-madia a i {
+  padding: 10px;
+  border-radius: 50%;
+  color: seashell;
+  font-size: 1.6em;
+  background-color: rgba(255, 255, 255, 0.205);
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+main #contactme .social-madia a i:hover {
+  color: #292929;
+  background-color: rgba(255, 255, 255, 0.829);
+  -webkit-transition: .6s;
+  transition: .6s;
 }
 
 /*=============== MEDIA QUERIES ===============*/
