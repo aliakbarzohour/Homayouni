@@ -395,5 +395,8 @@ main .skills-sec .skills .skill:hover {
   .nav__icon {
     display: none;
   }
+  .nav .bx {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
