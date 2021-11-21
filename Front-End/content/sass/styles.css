@@ -335,6 +335,51 @@ main .skills-sec .skills .skill:hover {
   cursor: pointer;
 }
 
+main #portfolio .portfolios {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #portfolio .portfolios .portfolio__item {
+  width: 44%;
+  height: 120px;
+  -webkit-box-shadow: 0 5px 3px rgba(215, 154, 255, 0.068);
+          box-shadow: 0 5px 3px rgba(215, 154, 255, 0.068);
+  border-radius: 6px;
+  color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+main #portfolio .portfolios .portfolio__item img {
+  width: 30%;
+  height: 100%;
+  margin: 0 6px 0 0;
+  border-radius: 6px 0 0 6px;
+}
+
+main #portfolio .portfolios .portfolio__item .text {
+  direction: rtl;
+  padding: 16px;
+}
+
 main #contactme {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,9 +492,12 @@ main #contactme .social-madia a i:hover {
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .nav__name {
     display: none;
+  }
+  main #portfolio .portfolios .portfolio__item {
+    width: 100%;
   }
 }
 
@@ -461,6 +509,9 @@ main #contactme .social-madia a i:hover {
             justify-content: center;
     -webkit-column-gap: 3rem;
             column-gap: 3rem;
+  }
+  main #portfolio .portfolios .portfolio__item {
+    width: 47%;
   }
 }
 
