@@ -8,12 +8,11 @@
 
  ~ change a linux disro xubuntu == > Arch linuxs
 
+* _ add a AOS Library
+
 | mahdi 🤙 :
 
 * _ i make this project and sending pull request for aliakbar s
 
 * _ change a ui for this project
-
-for aliakbar ==> removing position absolote in project
-
 
