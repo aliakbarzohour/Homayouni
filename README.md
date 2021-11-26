@@ -1,4 +1,5 @@
 <p align="center"><samp><strong>Programming Language</strong></samp></p>
+<pre>i maked portfolio website with my frend</pre>
 <p align="center">
   <img src="https://img.shields.io/badge/-Javasciprt-black?style=for-the-badge&logo=javascript" alt="Javasciprt" />
    <img src="https://img.shields.io/badge/-Sass-pink?style=for-the-badge&logo=sass" alt="Sass" />
