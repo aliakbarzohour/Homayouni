@@ -65,6 +65,10 @@ img {
   height: auto;
 }
 
+header {
+  padding: 0;
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2rem;
@@ -92,6 +96,7 @@ img {
   width: 100%;
   background-color: var(--container-color);
   z-index: var(--z-fixed);
+  padding: 0;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -193,7 +198,7 @@ main .back {
   height: 100%;
   position: absolute;
   inset: 0;
-  opacity: 55%;
+  opacity: 45%;
 }
 
 main .landing__page {
@@ -238,7 +243,7 @@ main .landing__page .content .text h4 {
 main .landing__page .content .text a {
   text-decoration: none;
   color: whitesmoke;
-  background-color: orangered;
+  background-color: #dda600;
   padding: 7px 15px;
   border-radius: 5px;
   margin: 20px 0;
@@ -497,11 +502,12 @@ body {
   font-family: vazir;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  direction: rtl;
 }
 
 body header {
-  overflow: hidden;
   width: 100%;
+  padding: 20px 30px;
 }
 
 body header nav {
@@ -509,8 +515,9 @@ body header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -548,6 +555,32 @@ body header nav ul a {
 body header nav ul a li {
   list-style: none;
   color: var(--text-color);
+}
+
+body main .container .row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .container .row .col {
+  background-color: rgba(255, 255, 255, 0.137);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body main .container .row .col h3 {
+  margin: 10px 0;
 }
 
 /*=============== MEDIA QUERIES ===============*/

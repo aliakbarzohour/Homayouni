@@ -4,7 +4,7 @@ main .back {
   height: 100%;
   position: absolute;
   inset: 0;
-  opacity: 55%;
+  opacity: 45%;
 }
 
 main .landing__page {
@@ -49,7 +49,7 @@ main .landing__page .content .text h4 {
 main .landing__page .content .text a {
   text-decoration: none;
   color: whitesmoke;
-  background-color: orangered;
+  background-color: #dda600;
   padding: 7px 15px;
   border-radius: 5px;
   margin: 20px 0;
