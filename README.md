@@ -5,7 +5,6 @@
    <img src="https://img.shields.io/badge/-Sass-pink?style=for-the-badge&logo=sass" alt="Sass" />
   <img src="https://img.shields.io/badge/-Alpine.js-blue?style=for-the-badge&logo=alpine.js" alt="Alpine.js" />
 </p>
-
 <hr/>
 
 <p align="center"><samp><strong>Tool's</strong></samp></p>
