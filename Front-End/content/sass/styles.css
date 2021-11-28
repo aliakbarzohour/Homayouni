@@ -589,6 +589,13 @@ body main .container .row .col h3 {
   .nav__name {
     display: none;
   }
+  main .landing__page .content .text {
+    width: 100%;
+    padding: 30px;
+  }
+  main .landing__page .content .image {
+    display: none;
+  }
   main #portfolio .portfolios .portfolio__item {
     width: 100%;
   }
@@ -608,7 +615,7 @@ body main .container .row .col h3 {
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 757px) {
   body {
     margin: 0;
   }
