@@ -385,6 +385,25 @@ main #portfolio .portfolios .portfolio__item .text {
   padding: 16px;
 }
 
+main #portfolio .portfolios a {
+  width: 100%;
+  background-color: #dda600;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+main #portfolio .portfolios a:hover {
+  background-color: #c29100;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
 main #contactme {
   display: -webkit-box;
   display: -ms-flexbox;
