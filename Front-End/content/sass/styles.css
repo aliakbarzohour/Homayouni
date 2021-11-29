@@ -327,21 +327,28 @@ main .skills-sec .skills {
 }
 
 main .skills-sec .skills .skill {
-  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 150px;
+  height: 150px;
   margin: 20px;
-  border-radius: 10%;
-  position: relative;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.116);
+  border: 10px solid #ffd600;
+  border-width: medium;
   -webkit-transition: .6s;
   transition: .6s;
-}
-
-main .skills-sec .skills .skill img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-main .skills-sec .skills .skill:hover {
-  cursor: pointer;
 }
 
 main #portfolio .portfolios {
@@ -465,6 +472,12 @@ main #contactme .email form input {
   direction: rtl;
   margin: 10px 0;
   text-align: right;
+}
+
+main #contactme .email form textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 6px;
 }
 
 main #contactme .email form button {

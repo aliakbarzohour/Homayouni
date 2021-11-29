@@ -57,6 +57,12 @@ main #contactme .email form input {
   text-align: right;
 }
 
+main #contactme .email form textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 6px;
+}
+
 main #contactme .email form button {
   margin: 10px 0;
   background-color: var(--first-color);
