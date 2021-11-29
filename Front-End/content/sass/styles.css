@@ -69,6 +69,10 @@ header {
   padding: 0;
 }
 
+main {
+  overflow: hidden;
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2rem;
@@ -96,7 +100,7 @@ header {
   width: 100%;
   background-color: var(--container-color);
   z-index: var(--z-fixed);
-  padding: 0;
+  padding: 0 5px 0 35px;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -294,7 +298,7 @@ main .landing__page .content .image img {
 .aboutme .content .text a {
   text-decoration: none;
   color: whitesmoke;
-  background-color: orangered;
+  background-color: #d9b600;
   padding: 7px 15px;
   border-radius: 5px;
   margin: 20px 0;
