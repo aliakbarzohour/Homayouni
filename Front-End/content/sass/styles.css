@@ -619,6 +619,18 @@ body main .container .row .col h3 {
   main .landing__page .content .image {
     display: none;
   }
+  main #about .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  main #about .content .text {
+    width: 100%;
+  }
+  main #about .content .image {
+    width: 100%;
+  }
   main #portfolio .portfolios .portfolio__item {
     width: 100%;
   }
