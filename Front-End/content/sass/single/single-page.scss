@@ -28,12 +28,14 @@ body {
             width: 90%;
             .carousel-inner {
                 border-radius: 10px;
-                .carousel-item {
-                    .carousel-caption {
-                        background-color: rgba(255, 255, 255, 0.5);
-                        color: black;
-                        border-radius: 7px;
-                    }
+                box-shadow: rgba(255, 255, 255, 0.459) 0 0 10px;
+                .carousel-caption {
+                    background-color: rgba(255, 255, 255, 0.377);
+                    color: rgb(255, 255, 255);
+                    border-radius: 7px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
                 }
             }
         }
