@@ -31,35 +31,7 @@ body header nav a {
   color: var(--text-color);
 }
 
-body header nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
-body header nav ul a {
-  padding: 10px 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-body header nav ul a li {
-  list-style: none;
-  color: var(--text-color);
-}
-
-body main .container .row {
-  width: 100%;
+body main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,18 +41,25 @@ body main .container .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-body main .container .row .col {
-  background-color: rgba(255, 255, 255, 0.137);
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
+body main .carousel {
+  width: 90%;
 }
 
-body main .container .row .col h3 {
-  margin: 10px 0;
+body main .carousel .carousel-inner {
+  border-radius: 10px;
+}
+
+body main .carousel .carousel-inner .carousel-item .carousel-caption {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  border-radius: 7px;
 }
 /*# sourceMappingURL=single-page.css.map */

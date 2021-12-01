@@ -16,40 +16,24 @@ body {
                 text-decoration: none;
                 color: var(--text-color);
             }
-            ul {
-                display: flex;
-                justify-content: center;
-                flex-direction: row-reverse;
-                a {
-                    padding: 10px 15px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    li {
-                        list-style: none;
-                        color: var(--text-color);
-                    }
-                }
-            }
         }
     }
     main {
-        .container {
-            .row {
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-wrap: wrap;
-                .col {
-                    background-color: rgba(255, 255, 255, 0.137);
-                    margin: 10px;
-                    padding: 10px;
-                    border-radius: 5px;
-                    img {}
-                    h3 {
-                        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .carousel {
+            width: 90%;
+            .carousel-inner {
+                border-radius: 10px;
+                .carousel-item {
+                    .carousel-caption {
+                        background-color: rgba(255, 255, 255, 0.5);
+                        color: black;
+                        border-radius: 7px;
                     }
-                    p {}
                 }
             }
         }
