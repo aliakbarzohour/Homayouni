@@ -647,13 +647,35 @@ body main {
 
 body main .carousel {
   width: 90%;
-  border-radius: 10px;
 }
 
-body main .carousel .carousel-inner .carousel-item .carousel-caption {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: black;
-  border-radius: 12px;
+body main .carousel .carousel-inner {
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.459) 0 0 10px;
+          box-shadow: rgba(255, 255, 255, 0.459) 0 0 10px;
+}
+
+body main .carousel .carousel-inner .carousel-caption {
+  background-color: rgba(255, 255, 255, 0.377);
+  color: white;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .row .col .card {
+  border: .5px solid white;
+  background-color: #0e0e0e;
+  -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.486);
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.486);
 }
 
 /*=============== MEDIA QUERIES ===============*/
