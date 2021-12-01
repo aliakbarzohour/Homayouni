@@ -1,11 +1,15 @@
 body {
     .screen {
-        overflow: hidden;
-        background-color: papayawhip;
+        position: absolute;
+        inset: 0;
+        background-color: #030014;
         width: 100%;
         height: 100%;
-        position: relative;
-        z-index: 99;
+        z-index: 110;
+        overflow: hidden;
+        opacity: 1;
+        visibility: visible;
+        transition: .6s;
         .wrapper {
             width: 150px;
             height: 150px;
@@ -18,7 +22,7 @@ body {
                 width: calc(100% - 9px);
                 height: calc(100% - 9px);
                 border-radius: 50%;
-                border-top: 5px solid rgb(224, 96, 22);
+                border-top: 5px solid #ffbf00;
                 animation: spin 2s ease-in-out infinite;
             }
             @keyframes spin {
@@ -30,5 +34,10 @@ body {
                 }
             }
         }
+    }
+    .loaded {
+        opacity: 0;
+        visibility: hidden;
+        transition: .6s;
     }
 }
