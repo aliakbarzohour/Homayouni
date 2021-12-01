@@ -74,4 +74,11 @@ body main .carousel .carousel-inner .carousel-caption {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+body main .row .col .card {
+  border: .5px solid white;
+  background-color: #0e0e0e;
+  -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.486);
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.486);
+}
 /*# sourceMappingURL=single-page.css.map */

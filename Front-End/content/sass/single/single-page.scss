@@ -39,5 +39,16 @@ body {
                 }
             }
         }
+        .row {
+            .col {
+                .card {
+                    border: .5px solid white;
+                    background-color: rgb(14, 14, 14);
+                    box-shadow: 0 0 10px rgba(255, 255, 255, 0.486);
+                    img {}
+                    .card-body {}
+                }
+            }
+        }
     }
 }
