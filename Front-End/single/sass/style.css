@@ -6,6 +6,56 @@
   font-family: vazir;
 }
 
+.carousel {
+  overflow: hidden;
+}
+
+.carousel-item {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.tcaption {
+  color: whitesmoke;
+  text-align: center;
+  margin: 5px;
+  padding: 13px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.instagram {
+  text-align: center;
+  direction: rtl;
+  background: url(../media/1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  color: whitesmoke;
+  padding: 30px;
+  margin: 12px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0px 15px #ff000096;
+  box-shadow: 0 0px 15px #ff000096;
+}
+
+.instagram a {
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 20px;
+  background: rgba(245, 245, 245, 0.253);
+  border: 2px solid whitesmoke;
+  padding: 10px 15px;
+}
+
+h3 {
+  color: white;
+}
+
 body {
   background-color: #0f0000;
 }
@@ -28,6 +78,22 @@ body header nav a {
   text-decoration: none;
   font-size: 1.2em;
   color: whitesmoke;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body main .banner {
