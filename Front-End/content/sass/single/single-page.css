@@ -75,8 +75,11 @@ body main .banner .carousel-inner .carousel-caption {
           flex-direction: column;
 }
 
-body main .container .row .col #carouselExampleFade .carousel-inner .carousel-item {
+body main .container .row .col #carouselExampleFade .carousel-inner {
   overflow: hidden;
+}
+
+body main .container .row .col #carouselExampleFade .carousel-inner .carousel-item {
   position: relative;
   height: 260px;
 }
@@ -89,6 +92,9 @@ body main .container .row .col #carouselExampleFade .carousel-inner .carousel-it
 }
 
 body main .container .row .col #carouselExampleFade .carousel-inner .carousel-caption {
+  background-color: rgba(255, 255, 255, 0.377);
+  color: white;
+  border-radius: 7px;
   position: relative;
   z-index: 1;
   bottom: -105px;
