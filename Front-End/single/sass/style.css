@@ -85,7 +85,7 @@ body {
 body header nav {
   background-color: rgba(0, 0, 0, 0.74);
   width: 100%;
-  padding: 20px;
+  padding: 8px 10px;
   position: fixed;
   top: 0;
   left: 0;
@@ -167,6 +167,12 @@ body main .banner h2 {
   font-size: 1.5em;
   color: whitesmoke;
   margin: 10px 0;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .go-to-top {
