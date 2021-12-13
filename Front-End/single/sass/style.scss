@@ -73,13 +73,6 @@ p {
     padding: 10px;
 }
 
-.navbar {
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-}
-
 body {
     background-color: rgb(15, 0, 0);
     header {
@@ -93,6 +86,7 @@ body {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            z-index: 10;
             ul {
                 display: flex;
                 justify-content: center;
@@ -128,6 +122,26 @@ body {
                 font-size: 1.5em;
                 color: whitesmoke;
                 margin: 10px 0;
+            }
+        }
+    }
+}
+
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 26px;
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        i {
+            font-size: 2.5em;
+            color: white;
+            transition: .6s;
+            &:hover {
+                color: rgba(15, 15, 15, 0.81);
+                text-shadow: 1px 0px 20px white;
+                transition: .6s;
             }
         }
     }

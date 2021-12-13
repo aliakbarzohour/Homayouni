@@ -78,13 +78,6 @@ p {
   padding: 10px;
 }
 
-.navbar {
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-}
-
 body {
   background-color: #0f0000;
 }
@@ -105,6 +98,7 @@ body header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 10;
 }
 
 body header nav ul {
@@ -172,5 +166,30 @@ body main .banner h2 {
   font-size: 1.5em;
   color: whitesmoke;
   margin: 10px 0;
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 26px;
+}
+
+.go-to-top a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.go-to-top a i {
+  font-size: 2.5em;
+  color: white;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.go-to-top a i:hover {
+  color: rgba(15, 15, 15, 0.81);
+  text-shadow: 1px 0px 20px white;
+  -webkit-transition: .6s;
+  transition: .6s;
 }
 /*# sourceMappingURL=style.css.map */
