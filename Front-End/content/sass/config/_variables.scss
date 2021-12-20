@@ -1,0 +1,32 @@
+/*=============== GOOGLE FONTS ===============*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+
+:root {
+    --header-height: 3rem;
+    /*========== Colors ==========*/
+    --hue: 174;
+    --sat: 63%;
+    --first-color: #e79e00;
+    --seccond-color: #be4c00;
+    --first-color-alt: hsl(var(--hue), var(--sat), 36%);
+    --title-color: white;
+    --text-color: whitesmoke;
+    --body-color: rgb(0, 9, 22);
+    --container-color: rgba(0, 9, 22, 0.849);
+    /*========== Font and typography ==========*/
+    --body-font: vazir;
+    --h1-font-size: 1.5rem;
+    --normal-font-size: .938rem;
+    --tiny-font-size: .625rem;
+    // Responsive typography
+    @media screen and (min-width: 968px) {
+        --h1-font-size: 2.25rem;
+        --normal-font-size: 1rem;
+    }
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}

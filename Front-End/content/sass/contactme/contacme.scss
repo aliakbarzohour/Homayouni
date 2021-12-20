@@ -1,0 +1,80 @@
+main {
+    #contactme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        .email {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .emailabout {
+                width: 70%;
+                text-align: center;
+                margin: 10px 0;
+                h3 {}
+                p {}
+            }
+            form {
+                width: 70%;
+                direction: rtl;
+                input {
+                    width: 100%;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 6px;
+                    direction: rtl;
+                    margin: 10px 0;
+                    text-align: right;
+                }
+                textarea {
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 6px;
+                }
+                button {
+                    margin: 10px 0;
+                    background-color: var(--first-color);
+                    border-radius: 5px;
+                    padding: 10px 30px;
+                    border: none;
+                    cursor: pointer;
+                    transition: .6s;
+                    &:hover {
+                        background-color: var(--seccond-color);
+                        transition: .6s;
+                    }
+                }
+            }
+        }
+        .social-madia {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+                text-decoration: none;
+                margin: 10px;
+                transition: .6s;
+                i {
+                    padding: 10px;
+                    // border: 2px solid whitesmoke;
+                    border-radius: 50%;
+                    color: rgb(255, 245, 238);
+                    font-size: 1.6em;
+                    background-color: rgba(255, 255, 255, 0.205);
+                    transition: .6s;
+                    &:hover {
+                        color: rgb(41, 41, 41);
+                        background-color: rgba(255, 255, 255, 0.829);
+                        transition: .6s;
+                    }
+                }
+            }
+        }
+    }
+}
