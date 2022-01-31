@@ -6,7 +6,7 @@ i maked portfolio website with my frend . you can see finaly relese of this proj
 <!-- result  -->
 <p align='center'>
 <!--   image  -->
-  ![portfolio](https://user-images.githubusercontent.com/71524940/151800510-e2bdfb30-97cc-467c-af76-b0015ba8fe5d.jpg)
+  <img src='https://user-images.githubusercontent.com/71524940/151800510-e2bdfb30-97cc-467c-af76-b0015ba8fe5d.jpg'/>
 </p>
 <hr />
 <!-- programming language  -->
