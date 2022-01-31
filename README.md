@@ -5,12 +5,15 @@ i maked portfolio website with my frend . you can see finaly relese of this proj
 <!-- result  -->
   ![portfolio](https://user-images.githubusercontent.com/71524940/151800510-e2bdfb30-97cc-467c-af76-b0015ba8fe5d.jpg)
 <!-- programming language  -->
+<p>
 <samp><strong>Programming Language</strong></samp></p>
   <img src="https://img.shields.io/badge/-Javasciprt-black?style=for-the-badge&logo=javascript" alt="Javasciprt" />
   <img src="https://img.shields.io/badge/-Sass-pink?style=for-the-badge&logo=sass" alt="Sass" />
   <img src="https://img.shields.io/badge/-Alpine.js-blue?style=for-the-badge&logo=alpine.js" alt="Alpine.js" />
+</p>
 <hr/>
 <!-- printing tools  -->
+<p align='center'>
 <samp><strong>Tool's</strong></samp>
   <img src="https://img.shields.io/badge/-vscode-white?style=for-the-badge&logo=Visual-Studio-Code&logoColor=darkblue" alt="Vscode" />
   <img src="https://img.shields.io/badge/-markdown-white?style=for-the-badge&logo=markdown&logoColor=black" alt="Markdown" />
